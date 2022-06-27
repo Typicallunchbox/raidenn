@@ -1,18 +1,14 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import AboutMe from './components/home-about-me/AboutMe'
-import FullscreenVisualizer from './components/fullscreen-visualizer/FullscreenVisualizer'
-import SkillsCardList from './components/home-skills-card/SkillsCardList'
-import SocialBar from './components/socials/SocialBar'
+import Login from './components/login/Login'
+import FullscreenBackground from './components/fullscreen-background/FullscreenBackground'
+
+
 
 const App = () => {
   return (
     <>
-    <Navbar/>
-    <SocialBar/>
-    <FullscreenVisualizer/>
-    <AboutMe/>
-    <SkillsCardList/>
+    <FullscreenBackground/>
+    <Login/>
     </>
   )
 }
