@@ -1,9 +1,11 @@
 import React from 'react'
 import './Login.scss'
+import FullscreenBackground from '../fullscreen-background/FullscreenBackground'
 
 const Login = () => {
   return (
-    <div className='login_container'>
+    <div>
+      <div className='login_container'>
       <div className='inner-container'>
         <h1>Sign In</h1>
         <input type="text" placeholder='Email or phone number' />
@@ -13,6 +15,8 @@ const Login = () => {
           <p>New to Netflix? <a href='*'> Sign Up Now</a></p>
         </div>
       </div> 
+    </div>
+    <FullscreenBackground/>
     </div>
   )
 }
