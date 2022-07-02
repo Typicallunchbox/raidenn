@@ -9,12 +9,12 @@ import { ErrorPage } from "./pages/ErrorPage";
 const App = () => {
   return (
     <Router>
-      <nav>
+      {/* <nav>
         <Link to="/">Login</Link>
         <Link to="/home">Home</Link>
         <Link to="/settings">Settings</Link>
         <Link to="/wishlist">Wishlist</Link>
-      </nav>
+      </nav> */}
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<Home />} />
