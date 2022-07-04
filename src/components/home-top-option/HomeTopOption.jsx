@@ -20,9 +20,11 @@ const HomeTopOption = () => {
   let image_path = 'https://image.tmdb.org/t/p/original';
   console.log('location:',image_path + movie.backdrop_path)
   return (
-    <div className='fullscreen_window'>
+    <div className='home_window'>
         <img src="https://image.tmdb.org/t/p/original/v1QEIuBM1vvpvfqalahhIyXY0Cm.jpg"></img>
-        <div className="spacer"></div>
+        <div className="buttons">
+          <btn className="btn-secondary"> + Add to Watchlist</btn>
+        </div>
     </div>
   )
 }
