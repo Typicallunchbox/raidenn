@@ -1,4 +1,5 @@
 import { React, useEffect, useState } from "react";
+import "../item-catalogue-list/ItemCatalogueList.scss"
 import axios from "axios";
 
 const ItemCatalogueList = () => {
