@@ -5,7 +5,7 @@ import FullscreenBackground from '../fullscreen-background/FullscreenBackground'
 const Login = () => {
   return (
     <div>
-      <div className='login_container'>
+      <div className='centred_xm_container'>
       <div className='inner-container'>
         <h1>Sign In</h1>
         <input type="text" placeholder='Email or phone number' />

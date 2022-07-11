@@ -1,10 +1,11 @@
 import React from "react";
 import Login from "./components/login/Login";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Wishlist } from "./pages/Wishlist";
 import { Settings } from "./pages/Settings";
 import { ErrorPage } from "./pages/ErrorPage";
+import { CreateAccount } from "./pages/CreateAccount";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       </nav> */}
       <Routes>
         <Route path="/" element={<Login />} />
+        <Route path="/create-account" element={<CreateAccount />} />
         <Route path="/home" element={<Home />} />
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/settings" element={<Settings />} />
